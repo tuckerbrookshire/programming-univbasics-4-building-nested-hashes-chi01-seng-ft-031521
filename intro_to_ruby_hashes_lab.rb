@@ -23,10 +23,10 @@ end
 
 def monopoly_with_fourth_tier
   hash = monopoly_with_third_tier
-  hash[:railroads][:names][:reading_railroad][:mortgage_value] = {}
-  hash[:railroads][:names][:pennsylvania_railroad][:mortgage_value] = {}
-  hash[:railroads][:names][:b_and_o_railroad][:mortgage_value] = {}
-  hash[:railroads][:names][:shortline_railroad][:mortgage_value] = {}
+  hash[:railroads][:names][:reading_railroad] = {:}
+  hash[:railroads][:names][:pennsylvania_railroad] = {}
+  hash[:railroads][:names][:b_and_o_railroad] = {}
+  hash[:railroads][:names][:shortline_railroad] = {}
   
   
   # When you start writing the implementation for this method, copy the Hash
